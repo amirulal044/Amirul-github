@@ -1,0 +1,194 @@
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins",sans-serif;
+}
+body
+{
+	background: lightblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+.container
+{
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	min-height: 1000px;
+	background: #fff;
+	margin: 50px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	box-shadow: 0 35pxm 55p rgba(0, 0, 0, 1);
+}
+.container .left_side
+{
+	position: relative;
+	background: #003147;
+	padding: 15px;
+}
+.profile
+{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+}
+.profile .img
+{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.profile h2
+{
+	color: #fff;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+	line-height: 1.4em;
+
+}
+.profile h2 span
+{
+	font-size: 0.8em;
+	font-weight: 300;
+}
+.contact
+{
+	padding-top: 40px;
+}
+.title
+{
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.contact ul
+{
+	position: relative;
+}
+.contact ul li
+{
+	position: relative;
+	list-style: none;
+	margin: 10px 0;
+	cursor: pointer;
+}
+.contact ul li .icon
+{
+	display: inline-block;
+	width: 30px;
+	font-size: 18px;
+	color: #03a9f4;
+}
+.contact ul li span
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 12px ;
+}
+.contact.education li
+{
+	margin-bottom: 15px;
+}
+.contact.education h5
+{
+	color: #03a9f4;
+	font-weight: 500;
+}
+.contact.education h4:nth-child(2)
+{
+	color: #fff;
+	font-weight: 500;
+	font-size: 14px;
+}
+.contact.education h4
+{
+	color: #fff;
+	font-weight: 300;
+	font-size: 16px;
+}
+.contact.language .percent
+{
+	position: relative;
+	width: 80%;
+	height: 6px;
+	background: black;
+	display: block;
+	margin-top: 5px;
+}
+.contact.language .percent div
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	background: #03a9f4;
+}
+.container .right_side
+{
+	position: relative;
+	background: #fff;
+	padding: 40px;
+}
+.cv .title
+{
+	color: white;
+	position: relative;
+	background: #003147;
+	padding: 20px;
+
+}
+.informasi ul p
+{
+	position: relative;
+	font-size: 12px;
+}
+
+.ringkasanpribadi p
+{
+	position: relative;
+	font-size: 12px;
+}
+.sekolah p
+{
+	position: relative;
+	font-size: 12px;
+}
+.kerja  p
+{
+	position: relative;
+	font-size: 12px;
+}
+.keterampilan  p
+{
+	position: relative;
+	font-size: 12px;
+}
+.keanggotan p
+{
+	position: relative;
+	font-size: 12px;
+}
+.bahasa  p
+{
+	position: relative;
+	font-size: 12px;
+}
+.referensi a
+{
+	float: none;
+	padding: 8px;
+}
